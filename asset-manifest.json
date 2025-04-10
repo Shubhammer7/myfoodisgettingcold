@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/myfoodisgettingcold/static/css/main.548f4c1a.css",
+    "main.js": "/myfoodisgettingcold/static/js/main.b6fa7fb5.js",
+    "index.html": "/myfoodisgettingcold/index.html",
+    "main.548f4c1a.css.map": "/myfoodisgettingcold/static/css/main.548f4c1a.css.map",
+    "main.b6fa7fb5.js.map": "/myfoodisgettingcold/static/js/main.b6fa7fb5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.548f4c1a.css",
+    "static/js/main.b6fa7fb5.js"
+  ]
+}
