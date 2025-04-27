@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/myfoodisgettingcold/static/css/main.548f4c1a.css",
-    "main.js": "/myfoodisgettingcold/static/js/main.a575b796.js",
+    "main.js": "/myfoodisgettingcold/static/js/main.e706630b.js",
     "index.html": "/myfoodisgettingcold/index.html",
     "main.548f4c1a.css.map": "/myfoodisgettingcold/static/css/main.548f4c1a.css.map",
-    "main.a575b796.js.map": "/myfoodisgettingcold/static/js/main.a575b796.js.map"
+    "main.e706630b.js.map": "/myfoodisgettingcold/static/js/main.e706630b.js.map"
   },
   "entrypoints": [
     "static/css/main.548f4c1a.css",
-    "static/js/main.a575b796.js"
+    "static/js/main.e706630b.js"
   ]
 }
