@@ -7,9 +7,12 @@ import os
 import requests
 from dotenv import load_dotenv
 
-
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000", "https://shubhammer7.github.io"])  
+CORS(app, resources={r"/*": {"origins": [
+    "http://localhost:3000",
+    "https://myfoodisgettingcold.vercel.app"
+]}})
+
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'movie_recommender.pkl')
 MOVIES_DATA_PATH = os.path.join(os.path.dirname(__file__), 'data', 'tmdb_5000_movies.csv')
