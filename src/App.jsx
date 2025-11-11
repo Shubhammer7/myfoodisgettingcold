@@ -7,9 +7,8 @@ import SearchBar from './components/SearchBar';
 import { findSimilarMovies } from './services/modelService';
 
 
-const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-deployed-api-url.com' // Replace with your actual deployed API URL
-  : 'http://localhost:5000';
+const API_BASE_URL = "https://myfoodisgettingcold.onrender.com";
+
 
 function App() {
   const [movie, setMovie] = useState("");
