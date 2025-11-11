@@ -1,8 +1,7 @@
 // src/services/tmdbService.js
 
-const API_BASE_URL = process.env.NODE_ENV === 'production'
-  ? 'http://10.0.0.6' // Your Raspberry Pi's IP address
-  : 'http://localhost:5000';
+const API_BASE_URL = "https://myfoodisgettingcold.onrender.com";
+
 
 
 // const API_KEY = '1f92844c436b3f6ea0f106be7f6fa358'; // You might still need this for direct TMDB calls in development
