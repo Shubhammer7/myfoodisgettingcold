@@ -1,0 +1,9 @@
+{
+  "short_name": "FoodCold",
+  "name": "My Food Is Getting Cold",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "icons": []
+}
