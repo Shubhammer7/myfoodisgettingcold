@@ -1,10 +1,10 @@
 // src/services/tmdbService.js
-const API_KEY = '1f92844c436b3f6ea0f106be7f6fa358'; 
+const API_BASE_URL = "https://myfoodisgettingcold.onrender.com";
 
 export const fetchMoviePoster = async (movieId) => {
   try {
     const response = await fetch(
-      `http://10.0.0.6/api/poster/${movieId}` // Your Raspberry Pi's IP
+      `https://myfoodisgettingcold.onrender.com/poster/${movieId}'
     );
 
     if (!response.ok) {
