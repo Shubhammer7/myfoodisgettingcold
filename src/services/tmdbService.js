@@ -4,7 +4,7 @@ const API_BASE_URL = "https://myfoodisgettingcold.onrender.com";
 export const fetchMoviePoster = async (movieId) => {
   try {
     const response = await fetch(
-      `${API_BASE_URL}/poster/${movieId}`
+      `${API_BASE_URL}/api/proxy/poster/${movieId}`
     );
 
     if (!response.ok) {
