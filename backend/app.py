@@ -10,8 +10,9 @@ from dotenv import load_dotenv
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": [
     "http://localhost:3000",
-    "https://myfoodisgettingcold.vercel.app"
+    "https://*.vercel.app"
 ]}})
+
 
 
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'movie_recommender.pkl')
